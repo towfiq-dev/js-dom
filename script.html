@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, delectus.</h1>
+  <h1>Lorem ipsum dolor sit.</h1>
+  <h1>Lorem ipsum dolor sit amet.</h1>
+  <h1>Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
+  <li>Lorem ipsum dolor sit amet is consectetur.</li>
+  <li>Lorem ipsum dolor sit amet a consectetur.</li>
+  <li>Lorem ipsum dolor sit amet of consectetur.</li>
+  <li>Lorem ipsum dolor sit a amet consectetur.</li>
+  <li>Lorem ipsum dolor sit on amet consectetur.</li>
+  <script>
+  const student = {
+    name: 'Abul mia',
+    id: 121,
+    study: function (subject){
+    console.log('studying subject:', subject);
+    }
+  }
+  const licolection = document.getElementsByTagName('li')
+  //console.log(licolection)
+
+  for(const list of licolection){
+    console.log(list.innerText)
+  }
+ const head = document.getElementsByTagName('h1')
+  for(const heading of head){
+    console.log(heading.innerText)
+  }
+  </script>
+</body>
+</html>

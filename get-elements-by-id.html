@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1 id="element-id">Lorem ipsum dolor sit amet.</h1>
+  <h1 id="some">Lorem ipsum dolor sit amet.</h1>
+  <h1>Lorem ipsum dolor sit amet.</h1>
+  <h1>Lorem ipsum dolor sit amet.</h1>
+  <script>
+    const heading = document.getElementById('element-id')
+    const change = heading.innerText='I love DOM'
+    console.log(change)
+
+
+    const ids = document.getElementById('some')
+    const result = ids.innerText = 'I hate DOM'
+    console.log(result);
+    
+  </script>
+</body>
+</html>
