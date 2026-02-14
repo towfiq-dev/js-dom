@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1 id="heading-id" class="heading-class">Lorem ipsum dolor sit amet consectetur.</h1>
+  <h2 id="heading2" class="heading-classes hello gello aillo">Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
+
+  <script>
+  const element = document.getElementById('heading-id')
+  element.style.fontSize = '40px'
+  element.style.border = '2px solid red'
+  element.style.padding = '30px'
+  element.style.backgroundColor = 'yellow'
+  element.getAttribute('class')
+  element.setAttribute('disable', true)
+  //console.log(element);
+  
+  const attribute = document.getElementById('heading2')
+  attribute.getAttribute('class')
+  attribute.classList
+  attribute.classList.add('goodBye')
+  attribute.classList.add('iLoveYou')
+  attribute.classList.remove('goodBye')
+  attribute.classList.remove('iLoveYou')
+  console.log(attribute);
+  
+  
+  </script>
+</body>
+</html>
