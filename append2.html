@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body id="bodytag">
+  <!-- <header>
+    <h1>Towfiqul Islam</h1>
+  </header>
+  <main>
+   <section>
+    <div>
+      <ul>
+        <li>List -01</li>
+        <li>List -02</li>
+        <li>List -03</li>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <li>Towfiqul Islam</li>
+        <li>Saiful Islam</li>
+        <li>Sabbir Rahman</li>
+      </ul>
+    </div>
+   </section>
+  </main> -->
+  <script>
+  const bodyId = document.getElementById('bodytag')
+  const headers = document.createElement('header')
+  headers.innerText = 'TOWFIQUL ISLAM'
+  headers.style.fontSize = '50px'
+  headers.style.textAlign = 'center'
+  const mains = document.createElement('main')
+  const sec = document.createElement('section')
+  const divs = document.createElement('div')
+  const unorder1 = document.createElement('ul')
+  const list1 = document.createElement('li')
+  list1.innerText = 'List -01'
+  const list2 = document.createElement('li')
+   list2.innerText = 'List -02'
+  const list3 = document.createElement('li')
+   list3.innerText = 'List -03'
+  
+
+   //anoterDiv
+   const div2 = document.createElement('div')
+   const unorder2 = document.createElement('ul')
+   const list4 = document.createElement('li')
+   list4.innerText = 'List-04'
+   const list5 = document.createElement('li')
+   list5.innerText = 'List-05'
+   const list6 = document.createElement('li')
+   list6.innerText = 'List-06'
+  bodyId.appendChild(headers)
+  bodyId.appendChild(mains)
+  mains.appendChild(sec)
+  sec.appendChild(divs)
+  divs.appendChild(unorder1)
+  unorder1.appendChild(list1)
+  unorder1.appendChild(list2)
+  unorder1.appendChild(list3)
+  sec.appendChild(div2)
+  div2.appendChild(unorder2)
+  unorder2.appendChild(list4)
+  unorder2.appendChild(list5)
+  unorder2.appendChild(list6)
+
+
+
+  </script>
+</body>
+</html>
